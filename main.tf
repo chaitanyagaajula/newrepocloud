@@ -1,5 +1,4 @@
 provider "google" {
-  credentials = file("/root/terraform-key.json")
   project     = "prj-35-418015"
   region      = "us-central1" # Set your desired region
 }
